@@ -1,7 +1,7 @@
 import {readFileSync,writeFileSync,statSync} from 'node:fs';
 import {gzipSync} from 'node:zlib';
 const label=process.argv[2];if(!/^(baseline|lazy-grader|candidate)$/.test(label))throw Error('Use baseline, lazy-grader or candidate');
-const html=readFileSync('.next/server/app/evaluation.html','utf8');
+const html=await (await fetch('http://localhost:3011/evaluation')).text();
 const scripts=[...new Set([...html.matchAll(/<script[^>]+src="([^"]+)"/g)].map(m=>m[1]))];
 const files=scripts.map(url=>{const content=readFileSync('.next/'+url.replace('/_next/',''));return {url,bytes:content.length,gzipBytes:gzipSync(content).length};});
 const styles=[...new Set([...html.matchAll(/<link[^>]+href="([^\"]+\.css)"/g)].map(m=>m[1]))].map(url=>({url,bytes:statSync('.next/'+url.replace('/_next/','')).size}));

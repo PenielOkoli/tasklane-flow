@@ -1,2 +1,2 @@
 import { EvalDesk } from '@/components/eval-desk';
-export default function Page(){return <EvalDesk/>;}
+export default async function Page({searchParams}:{searchParams:Promise<{perf?:string}>}){const query=await searchParams;return <EvalDesk measurement={query.perf!==undefined}/>;}

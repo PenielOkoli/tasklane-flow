@@ -1,0 +1,211 @@
+[
+  {
+    "version": "baseline",
+    "url": "http://localhost:3011/evaluation?perf=1",
+    "at": "2026-11-15T20:34:47.615Z",
+    "viewport": {
+      "width": 1024,
+      "height": 577
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "vitals": {
+      "LCP": 1480,
+      "CLS": 0.1920414413493563,
+      "INP": 40
+    },
+    "interactions": [
+      38.39999997615814,
+      32.39999997615814,
+      26.599999964237213,
+      22,
+      23.80000001192093
+    ],
+    "domElements": 1319,
+    "historyRows": 100,
+    "responsePreCount": 100,
+    "responseTextChars": 1575400,
+    "scripts": [
+      {
+        "name": "0umf92h1sb77c.js",
+        "encodedBytes": 3514,
+        "decodedBytes": 13822,
+        "transferBytes": 3814
+      },
+      {
+        "name": "turbopack-3-ry682tkyiqk.js",
+        "encodedBytes": 3940,
+        "decodedBytes": 10030,
+        "transferBytes": 4240
+      },
+      {
+        "name": "0r-yur70-ku2o.js",
+        "encodedBytes": 49697,
+        "decodedBytes": 185420,
+        "transferBytes": 49997
+      },
+      {
+        "name": "2khxl0v1q4i6n.js",
+        "encodedBytes": 71969,
+        "decodedBytes": 229820,
+        "transferBytes": 72269
+      },
+      {
+        "name": "3g25s9cvxdorl.js",
+        "encodedBytes": 10127,
+        "decodedBytes": 28604,
+        "transferBytes": 10427
+      },
+      {
+        "name": "094u5g0dkqctv.js",
+        "encodedBytes": 30654,
+        "decodedBytes": 107290,
+        "transferBytes": 30954
+      },
+      {
+        "name": "2l6vo9zh6r72t.js",
+        "encodedBytes": 748,
+        "decodedBytes": 1264,
+        "transferBytes": 1048
+      }
+    ],
+    "note": "Local lab session; INP is provisional for observed interactions, not field p75. Rendering fixture excludes model/network generation latency."
+  },
+  {
+    "version": "baseline",
+    "url": "http://localhost:3011/evaluation?perf=1",
+    "at": "2026-11-15T20:35:26.902Z",
+    "viewport": {
+      "width": 1024,
+      "height": 577
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "vitals": {
+      "LCP": 412,
+      "CLS": 0.1854411752953598
+    },
+    "interactions": [
+      993.3000000119209,
+      1003.1000000238419,
+      989.5,
+      988.0999999642372
+    ],
+    "domElements": 1319,
+    "historyRows": 100,
+    "responsePreCount": 100,
+    "responseTextChars": 1575400,
+    "scripts": [
+      {
+        "name": "0r-yur70-ku2o.js",
+        "encodedBytes": 49697,
+        "decodedBytes": 185420,
+        "transferBytes": 0
+      },
+      {
+        "name": "2khxl0v1q4i6n.js",
+        "encodedBytes": 71969,
+        "decodedBytes": 229820,
+        "transferBytes": 0
+      },
+      {
+        "name": "turbopack-3-ry682tkyiqk.js",
+        "encodedBytes": 3940,
+        "decodedBytes": 10030,
+        "transferBytes": 0
+      },
+      {
+        "name": "0umf92h1sb77c.js",
+        "encodedBytes": 3514,
+        "decodedBytes": 13822,
+        "transferBytes": 0
+      },
+      {
+        "name": "3g25s9cvxdorl.js",
+        "encodedBytes": 10127,
+        "decodedBytes": 28604,
+        "transferBytes": 0
+      },
+      {
+        "name": "094u5g0dkqctv.js",
+        "encodedBytes": 30654,
+        "decodedBytes": 107290,
+        "transferBytes": 0
+      },
+      {
+        "name": "2l6vo9zh6r72t.js",
+        "encodedBytes": 748,
+        "decodedBytes": 1264,
+        "transferBytes": 0
+      }
+    ],
+    "note": "Local lab session; INP is provisional for observed interactions, not field p75. Rendering fixture excludes model/network generation latency."
+  },
+  {
+    "version": "baseline",
+    "url": "http://localhost:3011/evaluation?perf=1",
+    "at": "2026-11-15T20:35:33.649Z",
+    "viewport": {
+      "width": 1024,
+      "height": 577
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "vitals": {
+      "LCP": 240,
+      "CLS": 0.1920414413493563
+    },
+    "interactions": [
+      990.5,
+      1003.6999999880791,
+      1001.6999999880791,
+      988.5999999642372
+    ],
+    "domElements": 1319,
+    "historyRows": 100,
+    "responsePreCount": 100,
+    "responseTextChars": 1575400,
+    "scripts": [
+      {
+        "name": "0r-yur70-ku2o.js",
+        "encodedBytes": 49697,
+        "decodedBytes": 185420,
+        "transferBytes": 0
+      },
+      {
+        "name": "2khxl0v1q4i6n.js",
+        "encodedBytes": 71969,
+        "decodedBytes": 229820,
+        "transferBytes": 0
+      },
+      {
+        "name": "turbopack-3-ry682tkyiqk.js",
+        "encodedBytes": 3940,
+        "decodedBytes": 10030,
+        "transferBytes": 0
+      },
+      {
+        "name": "0umf92h1sb77c.js",
+        "encodedBytes": 3514,
+        "decodedBytes": 13822,
+        "transferBytes": 0
+      },
+      {
+        "name": "3g25s9cvxdorl.js",
+        "encodedBytes": 10127,
+        "decodedBytes": 28604,
+        "transferBytes": 0
+      },
+      {
+        "name": "094u5g0dkqctv.js",
+        "encodedBytes": 30654,
+        "decodedBytes": 107290,
+        "transferBytes": 0
+      },
+      {
+        "name": "2l6vo9zh6r72t.js",
+        "encodedBytes": 748,
+        "decodedBytes": 1264,
+        "transferBytes": 0
+      }
+    ],
+    "note": "Local lab session; INP is provisional for observed interactions, not field p75. Rendering fixture excludes model/network generation latency."
+  }
+]

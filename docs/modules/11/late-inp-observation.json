@@ -1,0 +1,73 @@
+{
+  "version": "candidate",
+  "url": "http://localhost:3011/evaluation?perf=1",
+  "at": "2026-11-15T20:48:52.606Z",
+  "visibility": "visible",
+  "interactionMetric": "state-update-to-layout-effect-ms",
+  "viewport": {
+    "width": 1024,
+    "height": 577
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "vitals": {
+    "LCP": 348,
+    "CLS": 0,
+    "INP": 4192
+  },
+  "interactions": [
+    2.300000011920929,
+    2.600000023841858,
+    2.199999988079071,
+    1.800000011920929,
+    2.199999988079071
+  ],
+  "domElements": 246,
+  "historyRows": 10,
+  "responsePreCount": 0,
+  "responseTextChars": 0,
+  "scripts": [
+    {
+      "name": "1f3_j0-7srs8o.js",
+      "encodedBytes": 48515,
+      "decodedBytes": 180551,
+      "transferBytes": 0
+    },
+    {
+      "name": "2khxl0v1q4i6n.js",
+      "encodedBytes": 71969,
+      "decodedBytes": 229820,
+      "transferBytes": 0
+    },
+    {
+      "name": "turbopack-3-ry682tkyiqk.js",
+      "encodedBytes": 3940,
+      "decodedBytes": 10030,
+      "transferBytes": 0
+    },
+    {
+      "name": "0umf92h1sb77c.js",
+      "encodedBytes": 3514,
+      "decodedBytes": 13822,
+      "transferBytes": 0
+    },
+    {
+      "name": "43b5-rh9meevw.js",
+      "encodedBytes": 11338,
+      "decodedBytes": 32071,
+      "transferBytes": 0
+    },
+    {
+      "name": "2l6vo9zh6r72t.js",
+      "encodedBytes": 748,
+      "decodedBytes": 1264,
+      "transferBytes": 0
+    },
+    {
+      "name": "39fgnjvj8g6ym.js",
+      "encodedBytes": 1015,
+      "decodedBytes": 2184,
+      "transferBytes": 0
+    }
+  ],
+  "note": "Local lab session; INP is provisional for observed interactions, not field p75. Interaction timing ends at the React layout effect, not paint. Rendering fixture excludes model/network generation latency."
+}

@@ -1,0 +1,60 @@
+{
+  "label": "lazy-grader",
+  "at": "2026-11-15T20:40:32.968Z",
+  "route": "/evaluation",
+  "node": "v22.14.0",
+  "method": "Scripts referenced in production route HTML; raw and gzip level-default bytes. Includes framework runtime. Excludes on-demand chunks. Not a network timing.",
+  "files": [
+    {
+      "url": "/_next/static/chunks/0r-yur70-ku2o.js",
+      "bytes": 185420,
+      "gzipBytes": 49697
+    },
+    {
+      "url": "/_next/static/chunks/2khxl0v1q4i6n.js",
+      "bytes": 229820,
+      "gzipBytes": 71969
+    },
+    {
+      "url": "/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "bytes": 10030,
+      "gzipBytes": 3940
+    },
+    {
+      "url": "/_next/static/chunks/0umf92h1sb77c.js",
+      "bytes": 13822,
+      "gzipBytes": 3514
+    },
+    {
+      "url": "/_next/static/chunks/35m59g2gs4pzu.js",
+      "bytes": 27806,
+      "gzipBytes": 9806
+    },
+    {
+      "url": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 112594,
+      "gzipBytes": 39627
+    },
+    {
+      "url": "/_next/static/chunks/3cfn99dbrcvvp.js",
+      "bytes": 16898,
+      "gzipBytes": 5942
+    }
+  ],
+  "totalBytes": 596390,
+  "totalGzipBytes": 184495,
+  "styles": [
+    {
+      "url": "/_next/static/chunks/0mpitirwccxxb.css",
+      "bytes": 50795
+    },
+    {
+      "url": "/_next/static/chunks/0rljmvmniihi7.css",
+      "bytes": 6650
+    },
+    {
+      "url": "/_next/static/chunks/0spl7scecknrd.css",
+      "bytes": 3385
+    }
+  ]
+}

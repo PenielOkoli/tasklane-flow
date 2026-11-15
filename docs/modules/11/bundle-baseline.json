@@ -1,6 +1,6 @@
 {
   "label": "baseline",
-  "at": "2026-11-15T20:37:05.293Z",
+  "at": "2026-11-15T20:47:06.117Z",
   "route": "/evaluation",
   "node": "v22.14.0",
   "method": "Scripts referenced in production route HTML; raw and gzip level-default bytes. Includes framework runtime. Excludes on-demand chunks. Not a network timing.",
@@ -26,9 +26,9 @@
       "gzipBytes": 3514
     },
     {
-      "url": "/_next/static/chunks/3wthw526jpmv4.js",
-      "bytes": 28815,
-      "gzipBytes": 10220
+      "url": "/_next/static/chunks/3uewvlmrhgv11.js",
+      "bytes": 28760,
+      "gzipBytes": 10197
     },
     {
       "url": "/_next/static/chunks/094u5g0dkqctv.js",
@@ -46,8 +46,8 @@
       "gzipBytes": 5942
     }
   ],
-  "totalBytes": 704689,
-  "totalGzipBytes": 215563,
+  "totalBytes": 704634,
+  "totalGzipBytes": 215540,
   "styles": [
     {
       "url": "/_next/static/chunks/0mpitirwccxxb.css",

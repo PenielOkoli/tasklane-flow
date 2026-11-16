@@ -1,0 +1,135 @@
+{
+  "origin": "https://tasklane-flow.vercel.app",
+  "at": "2026-11-15T20:57:10.066Z",
+  "results": [
+    {
+      "name": "Published pages and inherited security headers",
+      "passed": true,
+      "detail": [
+        {
+          "path": "/",
+          "status": 200
+        },
+        {
+          "path": "/evaluation",
+          "status": 200
+        },
+        {
+          "path": "/evaluation?perf=1",
+          "status": 200
+        },
+        {
+          "path": "/knowledge",
+          "status": 200
+        },
+        {
+          "path": "/security",
+          "status": 200
+        },
+        {
+          "path": "/board",
+          "status": 200
+        },
+        {
+          "path": "/agent",
+          "status": 200
+        },
+        {
+          "path": "/studio",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "Fresh session and configured provider",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "configured": true
+      }
+    },
+    {
+      "name": "Real grounded AI answer",
+      "passed": true,
+      "detail": {
+        "durationMs": 1918.1490999999987,
+        "response": {
+          "evaluation": {
+            "variant": "candidate",
+            "retrievalVersion": "vocabulary-v2",
+            "promptVersion": "grounded-v1",
+            "model": "openai/gpt-oss-120b"
+          },
+          "status": "answered",
+          "mode": "ai",
+          "claims": [
+            {
+              "text": "Before launch the release quality checklist must be passed, which includes completing a keyboard‑only journey, visible focus checks, form error checks, and loading and empty states, with any high‑priority defects fixed; the project lead records the final approval.",
+              "citations": [
+                "quality-2"
+              ]
+            },
+            {
+              "text": "The launch is also approved only after a mobile review and the release quality checklist pass, and any unresolved high‑priority defect blocks the release.",
+              "citations": [
+                "brief-2"
+              ]
+            }
+          ],
+          "evidence": [
+            {
+              "id": "quality-2",
+              "sourceId": "quality",
+              "heading": "Release quality gate",
+              "text": "Before launch, complete a keyboard-only journey, visible focus checks, form error checks, and loading and empty states. High-priority defects must be fixed or the release is blocked. The project lead records the final approval.",
+              "title": "Release quality checklist",
+              "coverage": 0.75
+            },
+            {
+              "id": "brief-2",
+              "sourceId": "brief",
+              "heading": "Release decision",
+              "text": "The target launch date is 24 November 2026. This is a target, not a confirmed commitment. The project lead approves the launch only after mobile review and the release quality checklist pass. An unresolved high-priority defect blocks release.",
+              "title": "Spring launch brief",
+              "coverage": 0.5
+            },
+            {
+              "id": "brief-3",
+              "sourceId": "brief",
+              "heading": "Open decisions",
+              "text": "The project budget has not been approved. Pricing, revenue forecasts, and a final marketing spend are not documented. The project lead must provide these decisions before financial questions can be answered.",
+              "title": "Spring launch brief",
+              "coverage": 0.5
+            },
+            {
+              "id": "brief-1",
+              "sourceId": "brief",
+              "heading": "Launch scope",
+              "text": "The Spring launch focuses on a simpler onboarding flow and a checkout prototype. The launch announcement follows the release decision. Payment processing and a production checkout are outside this prototype scope.",
+              "title": "Spring launch brief",
+              "coverage": 0.25
+            }
+          ],
+          "confidence": "moderate",
+          "limitation": "Grounded in fictional sample documents, not live project data. Retrieval may miss relevant wording. ",
+          "steps": [
+            "Validated source access",
+            "Searched 2 selected documents",
+            "Retrieved 4 passages",
+            "Generated a grounded draft",
+            "Validated every citation against retrieved passages"
+          ]
+        },
+        "note": "One real provider smoke check; not used as frontend before/after evidence."
+      }
+    },
+    {
+      "name": "Injection and unsafe HTML boundaries still enforced",
+      "passed": true,
+      "detail": {
+        "injection": 422,
+        "sanitizedText": "Launch ready."
+      }
+    }
+  ]
+}
